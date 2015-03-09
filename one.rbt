@@ -1,0 +1,6 @@
+Rotate Socket2 -90
+Rotate Socket3 180
+Pinch Hand1
+Rotate Socket3 -180
+Rotate Socket2 90
+Release Hand1
