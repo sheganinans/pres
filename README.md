@@ -29,6 +29,15 @@ Things to try:
     evalC $ I 1 :+: (I 1 :/: I 3)
     testLang
 
+# An additional note:
+
+One thing I should have mentioned is information flow security. The idea is that you tag a piece of data as private, then ghc reject any code at compile time that leaks information because only the code with the public type can be shown to the outside world. This means that the only way to get code to compile that leaks sensitive information is to coerce the types, implying malicious intent.
+
+These are two (out of quite a few) of the libraries that implement it:
+
+http://hackage.haskell.org/package/lio
+
+http://hackage.haskell.org/package/seclib
 
 # Links!
 
@@ -338,6 +347,10 @@ https://github.com/klarh/hasdy
 ## Computer security
 
 https://github.com/kmcallister/dewdrop
+
+http://hackage.haskell.org/package/lio
+
+http://hackage.haskell.org/package/seclib
 
 
 ## Pure awesomness, live music coding
