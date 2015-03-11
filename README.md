@@ -25,9 +25,13 @@ cabal repl
 
 Things to try:
 
-    runRobotExample
-    evalC $ I 1 :+: (I 1 :/: I 3)
-    testLang
+```haskell
+integrate cube 0 1
+integrate something (-30) 20
+runRobotExample
+evalC $ I 1 :+: (I 1 :/: I 3)
+testLang
+```
 
 # An additional note:
 
