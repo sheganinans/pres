@@ -135,8 +135,6 @@ http://h2.jaguarpaw.co.uk/
 
 http://hyperpolyglot.org/
 
-http://www.jsoftware.com/jwiki/NuVoc
-
 https://izbicki.me/blog/gausian-distributions-are-monoids
 
 http://redmonk.com/sogrady/2015/01/14/language-rankings-1-15/
@@ -362,3 +360,27 @@ https://github.com/tidalcycles/Tidal
 https://github.com/nushio3/dynamic-object
 
 https://github.com/ttuegel/loops
+
+
+# Check out J
+
+http://www.jsoftware.com/jwiki/NuVoc
+
+It's another language I've worked with and have been slowly working into my workflow more and more. It's the direct descendant of Ken Iverson's APL. https://en.wikipedia.org/wiki/APL_%28programming_language%29
+
+Highly recommended, if you are looking for another "10x" language like Haskell, J is definitely worth a look. I do not personally use it as a general purpose language like I do Haskell, but when I have a problem that fits right into rectangular arrays, I reach for J.
+
+It sits in the same space as hmatrix, repa, and accelerate, but unlike all of them; it implements nested arrays, has been around for longer than Haskell has been around, is a completely different language(!!!), and is dynamically typed. The payoff is the language itself, check out some examples of it on rosettacode.
+
+https://en.wikipedia.org/wiki/J_%28programming_language%29
+
+
+# As well as APL's other descendants!
+
+A direct descendatnt of APL, if you are the type of person that wishes J looked more like APL, dyalog would be a good bet.
+
+http://dyalog.com/
+
+If you aboslutely need the ability to make operations like rolling avg over billions+ rows (on standard hardware), check out KDB+. Be prepared to pay lots if you plan on having heaps over 4GB, but the free version is just as powerful: The only change is that it is a 32-bit binary.
+
+http://kx.com/
