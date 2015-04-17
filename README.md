@@ -42,11 +42,11 @@ testLang
 
 Remember when I told you to don't worry about mapM_ in my robot eval? Take a look at it in ghci with :t, take a look at mapM too. mapM_ is exactly like mapM, but it "throws away" it's return value, giving a "m ()" instead of a "m [b]".
 
-## To some this maybe evidence that Haskell is inferior in it's expressibility.
+### To some this maybe evidence that Haskell is inferior in it's expressibility.
 
 Needing the additional functions to express mapping with an monadic function. As some dynamic language enthusiasts may argue.
 
-I say nay, this is actually a sign of Haskell's expressivity. We are faced with the issue of mixing computations with an explicit context, such as IO, parsing, evaluating, etc. and those without. If we want to be honest about the fact that our function is dependent on this context that may change, we should carry that explicitly in our types. This gives us the advantage that we know which pieces of code require this context and which ones do not and for further reasoning about the properties about our code. We are able to say more about our code, not less.
+I say nay, this is actually a sign of Haskell's expressivity. We are faced with the issue of mixing computations with an explicit context, such as IO, parsing, evaluating, etc. and those without. If we want to be honest about the fact that our function is dependent on this context that may change, we should carry that explicitly in our types. This gives us the advantage that we know which pieces of code require this context and which ones do not. We are able to say more about our code, not less.
 
 # An additional note:
 
